@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        gameObject.transform.LookAt(target.transform);
         Vector3 step = target.transform.position - transform.position;
         transform.position += step * velocity;
     }
