@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float velocity = 0.1f;
+    public float velocity = 0.01f;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,12 +26,12 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            gameObject.transform.Translate(Vector3.left * velocity, Space.Self);
+            //gameObject.transform.Translate(Vector3.left * velocity, Space.Self);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            gameObject.transform.Translate(Vector3.right * velocity, Space.Self);
+            //gameObject.transform.Translate(Vector3.right * velocity, Space.Self);
         }
     }
 }
