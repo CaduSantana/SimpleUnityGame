@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SpeedCounter
+  - ScoreCounter
+  - Projectile
+  - cannonball
+  - bullet
+  - wintxt
   layers:
   - Default
   - TransparentFX
@@ -12,8 +18,8 @@ TagManager:
   - Water
   - UI
   - Tiro
-  - 
-  - 
+  - Enemy
+  - TiroEnemy
   - 
   - 
   - 

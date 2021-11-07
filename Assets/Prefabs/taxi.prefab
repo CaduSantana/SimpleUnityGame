@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6642244969387536131}
   - component: {fileID: 8979370875859533955}
   - component: {fileID: 2686788006595810188}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: group5group4pCylinder207
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,8 +90,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4550528498118775855}
-  m_Layer: 0
-  m_Name: taxi
+  m_Layer: 3
+  m_Name: Taxi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 421577179867739418}
   - component: {fileID: 1303140448282377587}
   - component: {fileID: 8994582854483598341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: group5group4pCylinder205
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7445747287114141314}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: taxi 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 8430302126580708050}
   - component: {fileID: 9048638781717702382}
   - component: {fileID: 638565293694370207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: group5group4pCylinder204
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 887753607809199985}
   - component: {fileID: 5990756891414022560}
   - component: {fileID: 5889390863389131708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: group5group4pCylinder206
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4044965775192496630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 2575166147005032795}
   - component: {fileID: 1754210011633550701}
   - component: {fileID: 7812179700749310500}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,3 +516,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 0.1
+  spd: {fileID: 0}
+  myBody: {fileID: 0}

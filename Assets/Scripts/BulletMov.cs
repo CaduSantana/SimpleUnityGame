@@ -22,6 +22,7 @@ public class BulletMov : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.gameObject);
+        // Ao colidir com algum objeto, destrua-se
+        Destroy(gameObject);
     }
 }

@@ -54,11 +54,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BulletMov.cs" />
+    <Compile Include="Assets\Scripts\ObjectiveController.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\GunController.cs" />
     <Compile Include="Assets\Scripts\Rotation.cs" />
-    <Compile Include="Assets\Scripts\RotationAssist.cs" />
+    <Compile Include="Assets\Scripts\EnemyFire.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Zelalkat\Cartoon Car-Vehicle Pack\Assets\Documents\Read Me.txt" />
